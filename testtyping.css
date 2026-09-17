@@ -77,6 +77,8 @@ main p {
 
 /* typing card */
 div#game {
+
+    
     line-height: 42px;
     height: 210px;
     overflow: hidden;
@@ -86,7 +88,7 @@ div#game {
     border: 1px solid var(--borderColor);
     border-radius: 18px;
 
-    padding: 55px 45px;
+    padding: 66px 45px;
 
     box-shadow: 0 15px 40px rgba(0, 0, 0, .25);
 
@@ -99,6 +101,7 @@ div#game {
     filter: blur(5px);
     color: var(--textsecondary);
     transition: filter .2s ease;
+    margin-top: -32px;
 }
 
 
@@ -197,23 +200,15 @@ div#game:focus {
 /* new game button */
 #newGamebtn {
     display: block;
-
     margin: 25px auto 0;
-
     background-color: transparent;
     border: 1px solid var(--borderColor);
-
     color: var(--textsecondary);
-
     padding: 10px 28px;
-
     border-radius: 10px;
-
     font-family: inherit;
     font-size: 14px;
-
     cursor: pointer;
-
     transition: .2s ease;
 }
 
